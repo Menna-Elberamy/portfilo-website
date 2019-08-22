@@ -1,0 +1,76 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 04/07/2019 09:42
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-download:before { content: "\f100"; }
+.flaticon-sent-mail:before { content: "\f101"; }
+.flaticon-computer:before { content: "\f102"; }
+.flaticon-data:before { content: "\f103"; }
+.flaticon-website-design-symbol:before { content: "\f104"; }
+.flaticon-cms:before { content: "\f105"; }
+.flaticon-users-group:before { content: "\f106"; }
+.flaticon-file:before { content: "\f107"; }
+.flaticon-cloud-storage-download:before { content: "\f108"; }
+.flaticon-cloud-computing:before { content: "\f109"; }
+.flaticon-coffee-cup-on-a-plate-black-silhouettes:before { content: "\f10a"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f10b"; }
+.flaticon-facebook-logo:before { content: "\f10c"; }
+.flaticon-twitter-social-logotype:before { content: "\f10d"; }
+.flaticon-vk-social-logotype:before { content: "\f10e"; }
+.flaticon-behance-logo:before { content: "\f10f"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f110"; }
+.flaticon-menu-three-horizontal-lines-symbol:before { content: "\f111"; }
+    
+    $font-Flaticon-download: "\f100";
+    $font-Flaticon-sent-mail: "\f101";
+    $font-Flaticon-computer: "\f102";
+    $font-Flaticon-data: "\f103";
+    $font-Flaticon-website-design-symbol: "\f104";
+    $font-Flaticon-cms: "\f105";
+    $font-Flaticon-users-group: "\f106";
+    $font-Flaticon-file: "\f107";
+    $font-Flaticon-cloud-storage-download: "\f108";
+    $font-Flaticon-cloud-computing: "\f109";
+    $font-Flaticon-coffee-cup-on-a-plate-black-silhouettes: "\f10a";
+    $font-Flaticon-arrow-pointing-to-right: "\f10b";
+    $font-Flaticon-facebook-logo: "\f10c";
+    $font-Flaticon-twitter-social-logotype: "\f10d";
+    $font-Flaticon-vk-social-logotype: "\f10e";
+    $font-Flaticon-behance-logo: "\f10f";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f110";
+    $font-Flaticon-menu-three-horizontal-lines-symbol: "\f111";
