@@ -746,6 +746,8 @@ body{
 	margin: 0px 5px;}
 
 @media screen and (max-width:992px){
+	.about .about-img{padding: 0px;}
+	.about .about-content{width: 100%;}
 	.about .about-img{width: 100%;}
 	.about .about-content{overflow: hidden;}
 	.about .about-content .content-btn a{
@@ -782,6 +784,8 @@ body{
 	}
 }
 @media screen and (max-width:600px){
+	.about .about-img{padding: 0px;}
+	.about .about-content{width: 100%;}
 	.portfilo .portfilo-gallery .gallery{width: 100%;}
 	.portfilo .portfilo-content a{display: inline-block;}
 
@@ -790,6 +794,6 @@ body{
 	.contact .contact-form .input-one .email{width: 100%;}
 
 }
+}
 
-
-/*end media query*/
+/* end media query */
